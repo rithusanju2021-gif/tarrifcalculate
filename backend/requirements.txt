@@ -1,0 +1,31 @@
+# ============================================================
+# Rithish Tours & Travels — Backend Python Dependencies
+# ============================================================
+
+# Django Core
+Django>=5.0,<5.2
+djangorestframework>=3.15.0,<4.0
+djangorestframework-simplejwt>=5.3.1,<6.0
+django-cors-headers>=4.3.1,<5.0
+
+# Database — MySQL (Aiven MySQL 8 compatible)
+PyMySQL>=1.1.0,<2.0
+cryptography>=42.0.0,<45.0
+
+# HTTP requests (OSRM distance routing)
+requests>=2.31.0,<3.0
+
+# Environment variables
+python-dotenv>=1.0.1,<2.0
+
+# Production server
+gunicorn>=22.0.0,<24.0
+
+# Static file serving
+whitenoise>=6.6.0,<7.0
+
+# PDF generation
+reportlab>=4.1.0,<5.0
+
+# Image support (required by reportlab for logos/images)
+Pillow>=10.2.0,<12.0
